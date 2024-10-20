@@ -10035,6 +10035,14 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-.maplogo{
-  align-items: center;
+.map-container {
+  /* Adjust padding or margin for better aesthetics */
+  padding: 10px; /* Example padding */
+}
+
+/* Media queries for adjusting height on smaller screens (optional) */
+@media only screen and (max-width: 768px) {
+  .map-container iframe {
+    height: 300px; /* Example height for smaller screens */
+  }
 }
